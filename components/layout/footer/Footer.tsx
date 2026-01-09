@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import logo from "@/public/img/logo-2.png";
+import logo from "@/public/img/logo-3.png";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -8,6 +8,7 @@ const Footer = () => {
     <div className="footer__one">
       <div className="container">
         <div className="row">
+          <div className="col-xl-3 col-lg-1"></div>
           <div className="col-xl-3 col-lg-5 col-md-6 xl-mb-30">
             <div
               className="footer__one-widget"
@@ -16,7 +17,16 @@ const Footer = () => {
             >
               <div className="logo">
                 <Link href="/">
-                  <Image src={logo} alt="logo" priority />
+                  <Image
+                    src={logo}
+                    alt="logo"
+                    style={{
+                      backgroundColor: "white",
+                      borderRadius: "18px",
+                      padding: "4px",
+                    }}
+                    priority
+                  />
                 </Link>
               </div>
               <div className="info">
@@ -27,27 +37,33 @@ const Footer = () => {
                   <div className="info-item-content">
                     <span>Call Now</span>
                     <h6>
-                      <Link href="tel:+125(895)658568">+125 (895) 658 568</Link>
+                      <a
+                        href="https://wa.me/96181759507?text=Hello%20ElectroPrime!"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        +961 81 759 507
+                      </a>
                     </h6>
                   </div>
                 </div>
                 <div className="info-item">
                   <div className="info-item-icon">
-                    <i className="fal fa-envelope"></i>
+                    <i className="fal fa-map-marker-alt"></i>
                   </div>
                   <div className="info-item-content">
-                    <span>Quick Email</span>
+                    <span>Office Address</span>
                     <h6>
-                      <Link href="mailto:info.help@gmail.com">
-                        info.help@gmail.com
-                      </Link>
+                      <span style={{ color: "white", fontWeight: "bold" }}>
+                        Chouaifet El Aamroussieh
+                      </span>
                     </h6>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div className="col-xl-3 col-lg-4 col-md-6 md-mb-30">
+          {/* <div className="col-xl-3 col-lg-4 col-md-6 md-mb-30">
             <div
               className="footer__one-widget ml-60 xl-ml-0"
               data-aos-duration="800"
@@ -104,7 +120,7 @@ const Footer = () => {
                 </ul>
               </div>
             </div>
-          </div>
+          </div> */}
           <div className="col-xl-3 col-lg-4 col-md-6">
             <div
               className="footer__one-widget"
@@ -114,22 +130,28 @@ const Footer = () => {
             >
               <h4>Working Time</h4>
               <div className="footer__one-widget-hour">
-                <p>Mon - Fri : 9:00 AM - 5:00 PM</p>
-                <p>Sat : 10:00 AM - 6:00 PM</p>
-                <p>Sunday Close</p>
+                <p>Mon - Fri : 7:00 AM - 10:00 PM</p>
+                <p>Sat : 7:00 AM - 9:00 PM</p>
+                <p>Sat : 8:00 AM - 4:00 PM</p>
                 <div className="social__icon">
                   <ul>
                     <li>
-                      <Link href="https://facebook.com" target="_blank">
+                      <Link
+                        href="https://www.facebook.com/profile.php?id=100082262150146"
+                        target="_blank"
+                      >
                         <i className="fab fa-facebook-f"></i>
                       </Link>
                     </li>
                     <li>
-                      <Link href="https://twitter.com" target="_blank">
-                        <i className="fa-brands fa-twitter"></i>
+                      <Link
+                        href="https://www.instagram.com/electroprime.sa/"
+                        target="_blank"
+                      >
+                        <i className="fab fa-instagram"></i>
                       </Link>
                     </li>
-                    <li>
+                    {/* <li>
                       <Link href="https://behance.net" target="_blank">
                         <i className="fab fa-behance"></i>
                       </Link>
@@ -138,7 +160,7 @@ const Footer = () => {
                       <Link href="https://linkedin.com" target="_blank">
                         <i className="fab fa-linkedin-in"></i>
                       </Link>
-                    </li>
+                    </li> */}
                   </ul>
                 </div>
               </div>
@@ -152,8 +174,8 @@ const Footer = () => {
                 <div className="col-lg-6">
                   <div className="copyright__one-left lg-t-center">
                     <p>
-                      &copy; <Link href="/">Pipepro</Link> {currentYear} | All
-                      Rights Reserved
+                      &copy; <Link href="/">Electro Prime</Link> {currentYear} |
+                      All Rights Reserved
                     </p>
                   </div>
                 </div>
@@ -161,10 +183,10 @@ const Footer = () => {
                   <div className="copyright__one-menu t-right lg-t-center lg-mt-5">
                     <ul>
                       <li>
-                        <Link href="contact">Privacy & Policy</Link>
+                        <Link href="#">Privacy & Policy</Link>
                       </li>
                       <li>
-                        <Link href="contact">Terms and Conditions</Link>
+                        <Link href="#">Terms and Conditions</Link>
                       </li>
                     </ul>
                   </div>

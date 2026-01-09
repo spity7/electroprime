@@ -21,7 +21,16 @@ const Hamburger = ({ hamburger, setHamburger }: HamburgerProps) => {
         </div>
         <div className="header-one__right-sidebar-popup-logo">
           <Link href="/">
-            <Image src={logo} alt="logo" priority />
+            <Image
+              src={logo}
+              alt="logo"
+              priority
+              style={{
+                backgroundColor: "white",
+                borderRadius: "18px",
+                padding: "4px",
+              }}
+            />
           </Link>
         </div>
         <p>

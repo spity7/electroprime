@@ -19,9 +19,14 @@ const Portfolio = () => {
             data-aos="fade-left"
             data-aos-delay="500"
           >
-            <Link className="button-3" href="#">
-              View more<i className="fa-regular fa-angle-right"></i>
-            </Link>
+            <a
+              className="button-3"
+              href="https://wa.me/96181759507?text=Hello%20ElectroPrime!"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Contact Us<i className="fa-regular fa-angle-right"></i>
+            </a>
           </div>
         </div>
         <div className="row">
