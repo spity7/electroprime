@@ -20,35 +20,41 @@ const About = () => {
               </div>
               <div className="about__one-right">
                 <div className="about__one-right-title">
-                  <h2>Why Your Should Choose Our</h2>
+                  <h2>Why Choose ElectroPrime</h2>
                   <p>
-                    Consecrate, disciple elite, sed quin non kumquat emus midi
-                    temporal incident ut labor et dolor inure reprehend qui in
+                    ElectroPrime is a trusted manufacturer of electrical panel
+                    boards and industrial steel solutions, delivering reliable,
+                    standards-compliant products for power, infrastructure, and
+                    industrial applications.
                   </p>
                 </div>
                 <div className="about__one-right-list">
                   <div className="about__one-right-list-item">
-                    <h5>Leaks to Repairs</h5>
+                    <h5>High-Quality Electrical Panels</h5>
                     <p>
-                      Reprehenderit in voluptate velit excepteur sint occaecat
+                      Precision-engineered LT, HT, MCC, PCC, and control panels
+                      built to meet international standards.
                     </p>
                   </div>
                   <div className="about__one-right-list-item">
-                    <h5>Faucets to Fixes</h5>
+                    <h5>Advanced Steel Fabrication</h5>
                     <p>
-                      Reprehenderit in voluptate velit excepteur sint occaecat
+                      Custom steel enclosures and structures manufactured with
+                      accuracy, durability, and industrial-grade finishes.
                     </p>
                   </div>
                   <div className="about__one-right-list-item">
-                    <h5>From Drips to Fix</h5>
+                    <h5>Certified Quality & Safety</h5>
                     <p>
-                      Reprehenderit in voluptate velit excepteur sint occaecat
+                      Strict quality control, testing procedures, and compliance
+                      with electrical and safety standards.
                     </p>
                   </div>
                   <div className="about__one-right-list-item">
-                    <h5>Cracks to Clean</h5>
+                    <h5>Reliable Project Delivery</h5>
                     <p>
-                      Reprehenderit in voluptate velit excepteur sint occaecat
+                      On-time manufacturing and delivery to support EPC
+                      contractors and industrial project timelines.
                     </p>
                   </div>
                 </div>

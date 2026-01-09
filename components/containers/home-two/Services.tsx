@@ -15,9 +15,7 @@ const Services = () => {
         <div className="row mb-30">
           <div className="col-xl-12 ">
             <div className="services__one-title">
-              <h2>
-                Comprehensive Handyman & Plumbing Services
-              </h2>
+              <h2>Comprehensive Handyman & Plumbing Services</h2>
               <p>
                 From minor repairs to major installations, our skilled team
                 offers reliable solutions tailored to your home’s needs.
@@ -29,7 +27,7 @@ const Services = () => {
           <div className="col-xl-12">
             <div className="services__one-area">
               <div className="services__one-list">
-                <Link href="services-details" onMouseEnter={() => setActive(0)}>
+                <Link href="#" onMouseEnter={() => setActive(0)}>
                   <div
                     className="services__one-list-item "
                     data-aos-duration="800"
@@ -51,7 +49,7 @@ const Services = () => {
                     </div>
                   </div>
                 </Link>
-                <Link href="services-details" onMouseEnter={() => setActive(1)}>
+                <Link href="#" onMouseEnter={() => setActive(1)}>
                   <div
                     className="services__one-list-item "
                     data-aos-duration="800"
@@ -73,7 +71,7 @@ const Services = () => {
                     </div>
                   </div>
                 </Link>
-                <Link href="services-details" onMouseEnter={() => setActive(2)}>
+                <Link href="#" onMouseEnter={() => setActive(2)}>
                   <div
                     className="services__one-list-item "
                     data-aos-duration="800"

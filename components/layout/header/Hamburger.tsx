@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import logo from "@/public/img/logo-2.png";
+import logo from "@/public/img/logo-3.png";
 
 interface HamburgerProps {
   hamburger: boolean;
@@ -25,10 +25,12 @@ const Hamburger = ({ hamburger, setHamburger }: HamburgerProps) => {
           </Link>
         </div>
         <p>
-          Nullam dignissim, ante scelerisque the is euismod fermentum odio sem
-          semper the is erat, a feugiat leo urna eget eros. Duis Aenean a
-          imperdiet risus.
+          ElectroPrime is a trusted manufacturer of electrical panel boards and
+          industrial steel solutions, delivering reliable, high-quality products
+          for power, infrastructure, and industrial projects with a strong focus
+          on safety, precision, and performance.
         </p>
+
         <div className="header-one__right-sidebar-popup-contact">
           <h4 className="mb-30">Contact Info</h4>
           <div className="header-one__right-sidebar-popup-contact-item">
@@ -38,11 +40,17 @@ const Hamburger = ({ hamburger, setHamburger }: HamburgerProps) => {
             <div className="header-one__right-sidebar-popup-contact-item-content">
               <span>Call Now</span>
               <h6>
-                <Link href="tel:+125(895)658568">+125 (895) 658 568</Link>
+                <a
+                  href="https://wa.me/96181759507?text=Hello%20ElectroPrime!"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  +961 81 759 507
+                </a>
               </h6>
             </div>
           </div>
-          <div className="header-one__right-sidebar-popup-contact-item">
+          {/* <div className="header-one__right-sidebar-popup-contact-item">
             <div className="header-one__right-sidebar-popup-contact-item-icon">
               <i className="fal fa-envelope"></i>
             </div>
@@ -54,7 +62,7 @@ const Hamburger = ({ hamburger, setHamburger }: HamburgerProps) => {
                 </Link>
               </h6>
             </div>
-          </div>
+          </div> */}
           <div className="header-one__right-sidebar-popup-contact-item">
             <div className="header-one__right-sidebar-popup-contact-item-icon">
               <i className="fal fa-map-marker-alt"></i>
@@ -62,9 +70,9 @@ const Hamburger = ({ hamburger, setHamburger }: HamburgerProps) => {
             <div className="header-one__right-sidebar-popup-contact-item-content">
               <span>Office Address</span>
               <h6>
-                <Link href="https://google.com/maps" target="_blank">
-                  Welshpool United Kingdom
-                </Link>
+                <span style={{ fontWeight: "bold", color: "white" }}>
+                  Chouaifet El Aamroussieh
+                </span>
               </h6>
             </div>
           </div>
@@ -72,11 +80,22 @@ const Hamburger = ({ hamburger, setHamburger }: HamburgerProps) => {
         <div className="header-one__right-sidebar-popup-social social__icon">
           <ul>
             <li>
-              <Link href="https://facebook.com" target="_blank">
+              <Link
+                href="https://www.facebook.com/profile.php?id=100082262150146"
+                target="_blank"
+              >
                 <i className="fab fa-facebook-f"></i>
               </Link>
             </li>
             <li>
+              <Link
+                href="https://www.instagram.com/electroprime.sa/"
+                target="_blank"
+              >
+                <i className="fab fa-instagram"></i>
+              </Link>
+            </li>
+            {/* <li>
               <Link href="https://twitter.com" target="_blank">
                 <i className="fa-brands fa-twitter"></i>
               </Link>
@@ -90,7 +109,7 @@ const Hamburger = ({ hamburger, setHamburger }: HamburgerProps) => {
               <Link href="https://linkedin.com" target="_blank">
                 <i className="fab fa-linkedin-in"></i>
               </Link>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>

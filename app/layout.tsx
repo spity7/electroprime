@@ -10,8 +10,9 @@ import "yet-another-react-lightbox/styles.css";
 import "@/public/scss/main.scss";
 
 export const metadata: Metadata = {
-  title: "Pipepro - Handyman & Plumber NextJS Template",
-  description: "Handyman & Plumber NextJS Template",
+  title: "ElectroPrime | Electrical Panels & Steel Solutions",
+  description:
+    "Manufacturer of electrical panel boards and precision steel fabrication for industrial and infrastructure projects.",
   keywords: [
     "creative",
     "digital",

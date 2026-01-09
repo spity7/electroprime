@@ -3,7 +3,7 @@ import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import YoutubeEmbed from "@/components/containers/YoutubeEmbed";
-import banner from "@/public/img/banner/banner.png";
+import banner from "@/public/img/banner/WhatsApp Image 2026-01-09 at 21.18.19.jpg";
 
 const Banner = () => {
   const [videoActive, setVideoActive] = useState(false);
@@ -19,15 +19,18 @@ const Banner = () => {
                   data-aos="fade-up"
                   data-aos-delay="400"
                 >
-                  Plumbing pros you Best Quality <span>work</span>
+                  Powering Industries with{" "}
+                  <span>Reliable Electrical Panels</span>
                 </h1>
                 <p
                   data-aos-duration="800"
                   data-aos="fade-up"
                   data-aos-delay="600"
                 >
-                  Plumbers provide essential services to install, repair, and
-                  maint plumbing systems in residential
+                  ElectroPrime designs and manufactures high-quality electrical
+                  panel boards and industrial steel solutions, delivering
+                  safety, efficiency, and performance for power and
+                  infrastructure projects.
                 </p>
                 <div
                   className="banner__one-content-button"
@@ -35,9 +38,9 @@ const Banner = () => {
                   data-aos="fade-up"
                   data-aos-delay="900"
                 >
-                  <Link className="button-2" href="about">
+                  {/* <Link className="button-2" href="about">
                     Discover More<i className="fa-regular fa-angle-right"></i>
-                  </Link>
+                  </Link> */}
                   <div className="video">
                     <a
                       className="video-popup"

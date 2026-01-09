@@ -1,16 +1,17 @@
-import HeaderTwo from "@/components/layout/header/HeaderTwo";
-import BannerTwo from "@/components/layout/banner/BannerTwo";
-import Services from "@/components/containers/home/Services";
-import Solutions from "@/components/containers/home/Solutions";
-import WorkProcess from "@/components/containers/home/WorkProcess";
-import Faq from "@/components/containers/home/Faq";
-import Team from "@/components/containers/home/Team";
-import Portfolio from "@/components/containers/home/Portfolio";
-import Testimonial from "@/components/containers/home/Testimonial";
-import Contact from "@/components/containers/home/Contact";
-import Blog from "@/components/containers/home/Blog";
-import SubscribeArea from "@/components/containers/home/SubscribeArea";
-import FooterTwo from "@/components/layout/footer/FooterTwo";
+import Header from "@/components/layout/header/Header";
+import Banner from "@/components/layout/banner/Banner";
+import About from "@/components/containers/home-two/About";
+import CtaArea from "@/components/containers/home-two/CtaArea";
+import WorkArea from "@/components/containers/home-two/WorkArea";
+import Pricing from "@/components/containers/home-two/Pricing";
+import Service from "@/components/containers/home-two/Services";
+import Portfolio from "@/components/containers/home-two/Portfolio";
+import Faq from "@/components/containers/home-two/Faq";
+import TeamArea from "@/components/containers/home-two/Team";
+import Testimonial from "@/components/containers/home-two/Testimonial";
+import Blog from "@/components/containers/home-two/Blog";
+import SubscribeArea from "@/components/containers/home-two/SubscribeArea";
+import Footer from "@/components/layout/footer/Footer";
 import InitAnimations from "@/components/layout/InitAnimations";
 import CustomCursor from "@/components/layout/CustomCursor";
 import ScrollProgressButton from "@/components/layout/ScrollProgressButton";
@@ -18,19 +19,20 @@ import ScrollProgressButton from "@/components/layout/ScrollProgressButton";
 const page = () => {
   return (
     <>
-      <HeaderTwo />
-      <BannerTwo />
-      <Services />
-      <Solutions />
-      <WorkProcess />
-      <Faq />
-      <Team />
+      <Header />
+      <Banner />
+      <About />
+      <CtaArea />
+      <WorkArea />
+      {/* <Pricing /> */}
+      <Service />
       <Portfolio />
-      <Testimonial />
-      <Contact />
-      <Blog />
+      <Faq />
+      {/* <TeamArea /> */}
+      {/* <Testimonial /> */}
+      {/* <Blog /> */}
       <SubscribeArea />
-      <FooterTwo />
+      <Footer />
       <InitAnimations />
       <CustomCursor />
       <ScrollProgressButton />

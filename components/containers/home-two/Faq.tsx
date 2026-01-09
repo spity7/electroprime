@@ -30,14 +30,14 @@ const Faq = () => {
           <div className="col-lg-6 lg-mt-30">
             <div className="faq__one-right">
               <div className="faq__one-right-title">
-                <h2>Ask Question</h2>
+                <h2>Frequently Asked Questions</h2>
                 <p
                   data-aos-duration="800"
                   data-aos="fade-up"
                   data-aos-delay="600"
                 >
-                  He rejects pleasures to secu other greater pleasures, or else
-                  he endures pains to avoid worse pa the selection point
+                  Here are some common questions about our electrical panel
+                  boards and industrial steel manufacturing solutions.
                 </p>
               </div>
               <div
@@ -53,7 +53,7 @@ const Faq = () => {
                     data-bs-toggle="collapse"
                     data-bs-target="#collapseOne"
                   >
-                    How often Plumb Professionals?
+                    What types of electrical panels do you manufacture?
                   </h5>
                   <div
                     id="collapseOne"
@@ -63,9 +63,9 @@ const Faq = () => {
                     data-bs-parent="#accordionExample"
                   >
                     <p>
-                      It is a long established fact that a reader will be distr
-                      acted bioiiy the rea dablea content of a page when looking
-                      at its layout
+                      We manufacture LT panels, HT panels, MCC, PCC, APFC,
+                      control panels, and custom PLC panels, all built to meet
+                      international safety and quality standards.
                     </p>
                   </div>
                 </div>
@@ -76,7 +76,7 @@ const Faq = () => {
                     data-bs-toggle="collapse"
                     data-bs-target="#collapseTwo"
                   >
-                    What should I do in case of a plumbing?
+                    Do you provide custom steel fabrication for panels?
                   </h5>
                   <div
                     id="collapseTwo"
@@ -86,9 +86,10 @@ const Faq = () => {
                     data-bs-parent="#accordionExample"
                   >
                     <p>
-                      It is a long established fact that a reader will be distr
-                      acted bioiiy the rea dablea content of a page when looking
-                      at its layout
+                      Yes, we provide custom sheet metal and steel enclosures
+                      for electrical panels, including powder-coated and
+                      galvanized finishes for durability in industrial
+                      environments.
                     </p>
                   </div>
                 </div>
@@ -99,7 +100,7 @@ const Faq = () => {
                     data-bs-toggle="collapse"
                     data-bs-target="#collapseThree"
                   >
-                    What is the best way hardwood floors ?
+                    How do you ensure quality and compliance?
                   </h5>
                   <div
                     id="collapseThree"
@@ -109,9 +110,10 @@ const Faq = () => {
                     data-bs-parent="#accordionExample"
                   >
                     <p>
-                      It is a long established fact that a reader will be distr
-                      acted bioiiy the rea dablea content of a page when looking
-                      at its layout
+                      All products undergo strict quality control, testing, and
+                      certification processes. Our panels comply with IEC, ISO,
+                      and industry-specific safety standards to ensure reliable
+                      performance.
                     </p>
                   </div>
                 </div>

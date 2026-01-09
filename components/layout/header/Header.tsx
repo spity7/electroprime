@@ -2,7 +2,7 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import logo from "@/public/img/logo-1.png";
+import logo from "@/public/img/logo-3.png";
 import SearchBox from "./SearchBox";
 import Hamburger from "./Hamburger";
 import OffCanvasMenu from "./OffcanvasMenu";
@@ -68,6 +68,7 @@ const Header = () => {
       >
         <div className="container">
           <div className="row ai-center">
+            <div className="col-xl-1"></div>
             <div className="col-xl-2 col-lg-2 col-7">
               <div className="header-one__left logo">
                 <Link href="/">
@@ -75,7 +76,7 @@ const Header = () => {
                 </Link>
               </div>
             </div>
-            <div className="col-xl-6 col-lg-8 res-hide">
+            {/* <div className="col-xl-6 col-lg-8 res-hide">
               <div className="header-one__center">
                 <div className="header-one__center-menu t-center">
                   <ul id="mobilemenu">
@@ -151,10 +152,10 @@ const Header = () => {
                   </ul>
                 </div>
               </div>
-            </div>
-            <div className="col-xl-4 col-lg-2 col-5">
+            </div> */}
+            <div className="col-xl-8 col-lg-10 col-5">
               <div className="header-one__right">
-                <div className="header-one__right-search">
+                {/* <div className="header-one__right-search">
                   <div className="search">
                     <span
                       className="header-one__right-search-icon open"
@@ -163,7 +164,7 @@ const Header = () => {
                       <i className="fal fa-search"></i>
                     </span>
                   </div>
-                </div>
+                </div> */}
                 <div className="header-one__right-sidebar">
                   <div
                     className="header-one__right-sidebar-popup-icon"
@@ -173,10 +174,16 @@ const Header = () => {
                   </div>
                 </div>
                 <div className="header-one__right-button">
-                  <Link className="button-1" href="contact">
-                    Get A Quote<i className="fa-regular fa-angle-right"></i>
-                  </Link>
+                  <a
+                    className="button-1"
+                    href="https://wa.me/96181759507?text=Hello%20ElectroPrime!"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Contact Us<i className="fa-regular fa-angle-right"></i>
+                  </a>
                 </div>
+
                 <div
                   className="header-one__right-responsive-menu menu__bar"
                   onClick={handleToggleMenu}

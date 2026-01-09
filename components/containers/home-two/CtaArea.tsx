@@ -1,6 +1,21 @@
-import Link from "next/link";
+"use client";
+
+import { useState } from "react";
 
 const CtaArea = () => {
+  const [message, setMessage] = useState("");
+
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+
+    const encodedMessage = encodeURIComponent(
+      message ||
+        "Hello ElectroPrime, I would like to inquire about your services."
+    );
+
+    window.open(`https://wa.me/96181759507?text=${encodedMessage}`, "_blank");
+  };
+
   return (
     <div className="cta__one">
       <div className="container">
@@ -20,7 +35,14 @@ const CtaArea = () => {
                       <div className="info">
                         <span>For Any Help</span>
                         <h4>
-                          <Link href="tel:+450570658567">+45 057 0658 567</Link>
+                          <a
+                            href="https://wa.me/96181759507?text=Hello%20ElectroPrime!"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            +961 81 759 507
+                          </a>
+                          {/* <Link href="tel:+450570658567">+45 057 0658 567</Link> */}
                         </h4>
                       </div>
                     </div>
@@ -33,15 +55,17 @@ const CtaArea = () => {
                     data-aos="fade-left"
                     data-aos-delay="500"
                   >
-                    <form action="#">
+                    <form onSubmit={handleSubmit}>
                       <input
-                        type="email"
-                        name="email"
-                        placeholder="Enter Your Email"
+                        type="text"
+                        name="message"
+                        placeholder="Enter your message"
+                        value={message}
+                        onChange={(e) => setMessage(e.target.value)}
                         required
                       />
                       <button className="button-5" type="submit">
-                        Subscribe
+                        Send on WhatsApp
                       </button>
                     </form>
                   </div>

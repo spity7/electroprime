@@ -19,7 +19,7 @@ const Portfolio = () => {
             data-aos="fade-left"
             data-aos-delay="500"
           >
-            <Link className="button-3" href="projects">
+            <Link className="button-3" href="#">
               View more<i className="fa-regular fa-angle-right"></i>
             </Link>
           </div>
@@ -36,9 +36,7 @@ const Portfolio = () => {
               <div className="portfolio__one-item-content">
                 <span>Guaranteed</span>
                 <h5>
-                  <Link href="projects-details">
-                    Reliable Plumbing Solutions
-                  </Link>
+                  <Link href="#">Reliable Plumbing Solutions</Link>
                 </h5>
               </div>
             </div>
@@ -52,7 +50,7 @@ const Portfolio = () => {
               <div className="portfolio__one-item-content">
                 <span>Professional</span>
                 <h5>
-                  <Link href="projects-details">Home Repair Specialists</Link>
+                  <Link href="#">Home Repair Specialists</Link>
                 </h5>
               </div>
             </div>
@@ -68,7 +66,7 @@ const Portfolio = () => {
               <div className="portfolio__one-item-content">
                 <span>Reliable</span>
                 <h5>
-                  <Link href="projects-details">Expert Handyman Services</Link>
+                  <Link href="#">Expert Handyman Services</Link>
                 </h5>
               </div>
             </div>
@@ -82,9 +80,7 @@ const Portfolio = () => {
               <div className="portfolio__one-item-content">
                 <span>Efficient</span>
                 <h5>
-                  <Link href="projects-details">
-                    Affordable Repair Services
-                  </Link>
+                  <Link href="#">Affordable Repair Services</Link>
                 </h5>
               </div>
             </div>

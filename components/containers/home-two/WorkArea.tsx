@@ -14,13 +14,11 @@ const WorkArea = () => {
           <div className="col-xl-7 xl-mb-30 ">
             <div className="work__area-left">
               <div className="work__area-content">
-                <h2>
-                  We Have A Great Achievement Working
-                </h2>
+                <h2>Our Industrial Achievements</h2>
                 <p>
-                  Disciple elite, sed quin non kumquat emus midi temporal
-                  incident ut labor et dolor inure reprehend qui in ea
-                  voluptuary elite sees qualm nihil
+                  ElectroPrime delivers high-quality electrical panel boards and
+                  steel fabrication solutions, trusted by industries and
+                  infrastructure projects across the region.
                 </p>
               </div>
               <div className="row">
@@ -32,10 +30,10 @@ const WorkArea = () => {
                     <div className="content">
                       <h3>
                         <span className="counter">
-                          <Counter value={580} />
+                          <Counter value={38} />
                         </span>
                       </h3>
-                      <p>Successful Project</p>
+                      <p>Completed Projects</p>
                     </div>
                   </div>
                 </div>
@@ -47,10 +45,10 @@ const WorkArea = () => {
                     <div className="content">
                       <h3>
                         <span className="counter">
-                          <Counter value={780} />
+                          <Counter value={95} />
                         </span>
                       </h3>
-                      <p>Satisfied Customer</p>
+                      <p>Satisfied Clients</p>
                     </div>
                   </div>
                 </div>
@@ -62,10 +60,10 @@ const WorkArea = () => {
                     <div className="content">
                       <h3>
                         <span className="counter">
-                          <Counter value={534} />
+                          <Counter value={400} />
                         </span>
                       </h3>
-                      <p>Customer Review</p>
+                      <p>Panels Manufactured</p>
                     </div>
                   </div>
                 </div>
@@ -77,10 +75,10 @@ const WorkArea = () => {
                     <div className="content">
                       <h3>
                         <span className="counter">
-                          <Counter value={100} />
+                          <Counter value={30} />
                         </span>
                       </h3>
-                      <p>Award Winning</p>
+                      <p>Industry Awards</p>
                     </div>
                   </div>
                 </div>

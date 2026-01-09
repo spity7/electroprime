@@ -2,7 +2,7 @@
 import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import logo from "@/public/img/logo-1.png";
+import logo from "@/public/img/logo-3.png";
 
 interface HamburgerProps {
   toggleMenu: boolean;
@@ -63,12 +63,12 @@ const OffcanvasMenu = ({ toggleMenu, handleToggleMenu }: HamburgerProps) => {
                   </button>
                 </div>
               </div>
-              <p className="text d-none d-xl-block">
+              {/* <p className="text d-none d-xl-block">
                 Nullam dignissim, ante scelerisque the is euismod fermentum odio
                 sem semper the is erat, a feugiat leo urna eget eros. Duis
                 Aenean a imperdiet risus.
-              </p>
-              <div className="mobile-menu fix mb-3 mean-container">
+              </p> */}
+              {/* <div className="mobile-menu fix mb-3 mean-container">
                 <div className="mean-bar">
                   <nav className="mean-nav mobile-menu">
                     <ul>
@@ -181,21 +181,26 @@ const OffcanvasMenu = ({ toggleMenu, handleToggleMenu }: HamburgerProps) => {
                     </ul>
                   </nav>
                 </div>
-              </div>
+              </div> */}
               <div className="offcanvas__contact">
                 <h4>Contact Info</h4>
                 <ul>
                   <li className="d-flex align-items-center">
-                    <div className="offcanvas__contact-icon">
-                      <i className="fal fa-map-marker-alt"></i>
+                    <div className="offcanvas__contact-icon mr-15">
+                      <i className="fal fa-phone-alt"></i>
                     </div>
                     <div className="offcanvas__contact-text">
-                      <Link target="_blank" href="/">
-                        Welshpool United Kingdom
-                      </Link>
+                      <a
+                        href="https://wa.me/96181759507?text=Hello%20ElectroPrime!"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        +961 81 759 507
+                      </a>
+                      {/* <Link href="tel:+11002345909">+125 (895) 658 568</Link> */}
                     </div>
                   </li>
-                  <li className="d-flex align-items-center">
+                  {/* <li className="d-flex align-items-center">
                     <div className="offcanvas__contact-icon mr-15">
                       <i className="fal fa-envelope"></i>
                     </div>
@@ -204,23 +209,34 @@ const OffcanvasMenu = ({ toggleMenu, handleToggleMenu }: HamburgerProps) => {
                         <span>info.help@gmail.com</span>
                       </Link>
                     </div>
-                  </li>
+                  </li> */}
                   <li className="d-flex align-items-center">
-                    <div className="offcanvas__contact-icon mr-15">
-                      <i className="fal fa-phone-alt"></i>
+                    <div className="offcanvas__contact-icon">
+                      <i className="fal fa-map-marker-alt"></i>
                     </div>
                     <div className="offcanvas__contact-text">
-                      <Link href="tel:+11002345909">+125 (895) 658 568</Link>
+                      <span>Chouaifet El Aamroussieh</span>
                     </div>
                   </li>
                 </ul>
                 <div className="social-icon d-flex align-items-center">
                   <li>
-                    <Link href="https://facebook.com" target="_blank">
+                    <Link
+                      href="https://www.facebook.com/profile.php?id=100082262150146"
+                      target="_blank"
+                    >
                       <i className="fab fa-facebook-f"></i>
                     </Link>
                   </li>
                   <li>
+                    <Link
+                      href="https://www.instagram.com/electroprime.sa/"
+                      target="_blank"
+                    >
+                      <i className="fab fa-instagram"></i>
+                    </Link>
+                  </li>
+                  {/* <li>
                     <Link href="https://twitter.com" target="_blank">
                       <i className="fa-brands fa-twitter"></i>
                     </Link>
@@ -234,7 +250,7 @@ const OffcanvasMenu = ({ toggleMenu, handleToggleMenu }: HamburgerProps) => {
                     <Link href="https://linkedin.com" target="_blank">
                       <i className="fab fa-linkedin-in"></i>
                     </Link>
-                  </li>
+                  </li> */}
                 </div>
               </div>
             </div>
