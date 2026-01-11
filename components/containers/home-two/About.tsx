@@ -1,5 +1,5 @@
 import Image from "next/image";
-import about from "@/public/img/about/about-1.jpg";
+import about from "@/public/img/about/WhatsApp Image 2026-01-11 at 18.10.18.jpeg";
 
 const About = () => {
   return (

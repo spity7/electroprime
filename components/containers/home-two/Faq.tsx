@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 import Image from "next/image";
-import faq from "@/public/img/pages/faq.png";
+import faq from "@/public/img/pages/WhatsApp Image 2026-01-11 at 18.10.17.jpeg";
 import shape from "@/public/img/shape/faq-shape.png";
 
 const Faq = () => {
